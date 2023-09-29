@@ -1,0 +1,354 @@
+/* section1 styling */
+body{
+  overflow-x: hidden;
+}
+
+
+.navlink{
+  margin: 0 20px;
+}
+
+
+span{
+  font-weight: 500;
+  font-size: 15.05px;
+}
+
+
+.heroLinks{
+  align-self: center;
+}
+
+
+.heroLinks .btn:hover{
+  color: var(--primaryBtnColor);
+  font-size: large;
+}
+
+
+.heroLinks > span{
+  color: var(--secondaryColor);
+  font-size: clamp(15px, 3vw, 20px);
+}
+
+
+/* section2 styling */
+
+.section2{
+  justify-content: center;
+  text-align: center;
+}
+
+
+.section2 h4{
+  color: var(--textColor1);
+  margin-bottom: 20px;
+}
+
+
+.section2 span{
+  color: var(--textColor2);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: clamp(17px, 3vw, 10px);
+}
+
+
+.icon{
+  font-size: x-large;
+  color: var(--secondaryColor);
+}
+
+
+/* Section3 style */
+
+ .video{
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.videoImg{
+  box-shadow: 0px 6px 5px 5px rgba(0,0,0,0.35);
+}
+
+
+/* Section4 style */
+
+.section4{
+  justify-content: center;
+  /* background: red; */
+  margin-top: 5rem;
+}
+
+
+
+
+.applicantsWrap1{
+    align-self: center; 
+    width: 100%;   
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+
+.applicantsTitle h4{
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 3px;
+    width: fit-content;
+    letter-spacing: 6px;
+    font-size: xx-large;
+    border-bottom: 3px solid var(--secondaryColor);
+    color: var(--textColor2);
+    margin-bottom: 1rem;
+  }
+
+
+.applicantsTitle span{
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+
+
+.StaffMergeContainer{
+  width: 23rem;
+  border: 1px solid gainsboro;
+  border-bottom: 0;
+  border-radius: 30px 30px 0 0;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.StaffMergeContainerDown{
+  border: 1px solid gainsboro;
+  border-top: 0;
+  border-radius: 0 0 30px 30px;
+}
+
+
+.staffMergeWrap{
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  font-weight: 500;
+  background: var(--primaryBtnColor);
+  color: white;
+  width: 15rem;
+  border-radius: 25px;
+  box-shadow: 0px 6px 5px 5px rgba(0,0,0,0.35);
+}
+
+
+.wrap1{
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  padding: 0.9rem;
+  border: 1px solid gainsboro;
+}
+
+
+.wrap1Down{
+  border-radius: 0 0 30px 30px;
+}
+
+
+
+.imgWrap{
+  margin-right: 1rem;
+}
+
+
+.section4Icon{
+  width:  43.737px;
+  height: 43.737px;
+}
+
+
+.chat1 h4{
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+
+.chat1 span{
+  font-size: clamp(12px, 3vw, 14px);
+}
+
+
+.ChatIcon{
+  background: var(--secondaryColor);
+  width: 2rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+}
+
+
+.chat1 > div  span:nth-child(1){
+  margin: 0 5px;
+}
+
+
+.borderBottom{
+  border-top: 1px solid gainsboro;
+}
+
+
+.wrap2{
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+.wrap2 .section4Icon{
+  width: 4rem;
+  height: 3.3rem;
+}
+
+
+.wrap2 .section4Icon span{
+  font-size: larger;
+}
+
+
+.chat2 h4{
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-top: 2px;
+}
+
+
+.chat2 span{
+  font-size: clamp(13px, 3vw, 15px);
+}
+
+
+.chat2spans{
+  margin-top: 0.5rem;
+  width: max-content;
+  border-top: 1px solid gainsboro;
+}
+
+
+.chat2spans span{
+  font-size: 12px;
+}
+
+
+.chat2spans a{
+  width: auto;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--textColor2);
+  margin: 5px;
+  border-radius: 25px;
+  padding: 2px 0.5rem;
+  border: 1px solid gainsboro;
+}
+
+
+.chat2spans a:hover,
+.chat3spans a:hover{
+  background: var(--secondaryColor);
+  color: white;
+} 
+
+
+.chat3spans a{
+  font-weight: 500;
+  font-size: small;
+  text-decoration: none;
+  color: var(--textColor2);
+  margin: 2px;
+  border-radius: 25px;
+  padding: 1px 0.2rem;
+  border: 1px solid gainsboro;
+}
+
+
+
+
+@media (width <= 999px){
+.section4, .section5{
+  display: grid !important; 
+ }
+
+ .applicantsTitle{
+  display: flex;
+}
+
+.applicantsTitle h4{
+  margin: auto;
+}
+}
+
+
+
+@media (width <= 767px){
+  .heroBanner{
+    display: grid; 
+  }
+
+
+  .StaffMergeContainer{
+    width: auto;
+  }
+
+
+  .applicantsTitle h4{
+    font-size: large;
+    font-weight: bold;
+    border-radius: 3px;
+    letter-spacing: 0;
+    font-size: large;
+    border-bottom: 3px solid var(--secondaryColor);
+    color: var(--textColor2);
+  }
+
+
+.applicantsTitle span{
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+
+
+  .applicantsTitle h4{
+    margin: auto;
+  }
+}
+
+@media (width <= 400px){
+
+  .applicantsTitle{
+    display: grid;
+  }
+
+
+  .applicantsTitle .btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .chat2spans a{
+    margin: 0 0.3rem;
+    padding: 0 0.5rem;
+    font-size: clamp(13px, 3vw, 15px);
+  }
+}
